@@ -241,14 +241,14 @@
         return str;
     };
 
-    var botCreator = 'Yemasthui';
-    var botMaintainer = 'Benzi';
+    var botCreator = 'YourNick';
+    var botMaintainer = 'Unkown';
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.0',
+        version: '1.1',
         status: false,
-        name: 'basicBot',
+        name: 'TestBotCZSK',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
@@ -258,7 +258,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'basicBot',
+            botName: 'TestBotCZSK',
             language: 'english',
             chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
             scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
